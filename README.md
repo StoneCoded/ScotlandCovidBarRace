@@ -1,3 +1,8 @@
+# Scotland Covid Bar Race
+
+Creates a bar race (an animated updating bar chart over time) of covid-19 numbers in Scotland.
+
+
 ### Table of Contents
 
  1. Installation
@@ -11,6 +16,8 @@
 BarCharRace installation is required. Documentation/Installation instructions can be found [here](https://pypi.org/project/bar-chart-race)
 
 Other than the above and the standard Anaconda distribution of Python 3, there should be no issues running the code.
+
+As I have left it, the default numbers are centered around Hospital Numbers as they are increasingly showing a better indicator on how a country is dealing with Covid amid a vast increase in testing. To change this, simply change the argument Dataframe in covid_fmt().
 
 ## 2. Motivation
 
