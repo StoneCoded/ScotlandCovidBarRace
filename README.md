@@ -2,14 +2,14 @@
 
 Creates a bar race (an animated updating bar chart over time) of covid-19 numbers in Scotland.
 
-
 ### Table of Contents
 
  1. Installation
  2. Motivation
  3. File Descriptions
  4. Results
- 5. Licensing, Authors, and Acknowledgements
+ 5. Issues
+ 6. Licensing, Authors, and Acknowledgements
 
 ## 1. Installation.
 
@@ -36,7 +36,14 @@ Each is commented through to aid reading and understanding.
 
 From anyone living in the UK and Scotland in particular the fact that Glasgow experiences the highest nubmers is consistant with current events and nothing new. This project was in part an attempt to view the data in a different way and also an opportunity to use BarChartRace. 
 
-## 5. Licensing, Authors, and Acknowledgements
+
+## 5. Issues
+
+A recurring issue when running BCR is the warning:
+`UserWarning: FixedFormatter should only be used together with FixedLocator` 
+I am attempting to work this out but ignoring the warning for now has no consequence (as of 12/20)
+
+## 6. Licensing, Authors, and Acknowledgements
 
 All data was published by the Scottish Government. The data spreadsheet can be found on the Scottish Goverment Website:[Download](https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdaily%2Bdata%2B-%2Bby%2BNHS%2BBoard%2B-%2B6%2BSeptember%2B2020.xlsx)
 
