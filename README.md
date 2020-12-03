@@ -1,4 +1,4 @@
-#Scotland Covid Bar Race
+# Scotland Covid Bar Race
 
 Creates a bar race (an animated updating bar chart over time) of covid-19 numbers in Scotland.
 
